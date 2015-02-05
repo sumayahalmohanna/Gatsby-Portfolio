@@ -35,6 +35,7 @@ img {
 
 a{
 	color: #291400;
+	padding: 1em;
 	text-decoration: none;
 }
 /*#291400*/
@@ -72,16 +73,12 @@ h1:hover {
 	margin-top: 25%;
 }
 
-.portfolio h1 {
-	margin-top: 60%;
-}
-
 .resume h1 {
-	margin-top: 95%;
+	margin-top: 65%;
 }
 
 .contact h1 {
-	margin-top: 130%;
+	margin-top: 110%;
 }
 
 h3{
@@ -99,39 +96,25 @@ h3{
 	background-color: #FF7171;
 	float: left;
 	height: 100vh;
-	width: 25%;
-}
-
-.portfolio{
-	background-color: #718DE2;
-	float: left;
-	height: 100vh;
-	width: 25%;
+	width: 34%;
 }
 
 .resume{
 	background-color: #5F9F5F;
 	float: left;
 	height: 100vh;
-	width: 25%;
+	width: 33%;
 }
 
 .contact{
 	background-color: #FFFF71;
 	float: left;
 	height: 100vh;
-	width: 25%;
+	width: 33%;
 }
 
 .apage{
 	background-color: #FF7171;
-	float: left;
-	height: 100vh;
-	width: 100%;
-}
-
-.ppage{
-	background-color: #718DE2;
 	float: left;
 	height: 100vh;
 	width: 100%;
@@ -153,7 +136,7 @@ h3{
 
 @media screen and (max-width:950px){
 
-	.apage, .ppage, .rpage, .cpage {
+	.apage, .rpage, .cpage {
 		height: 160vh;
 	}
 	
