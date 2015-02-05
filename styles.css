@@ -3,8 +3,8 @@ body{
 	color: #291400;
 	font-family: 'Lobster', Sans;
 	height: 100vh;
+	width: 100vw;
 	margin: 0;
-	width: 98.7vw;
 }
 
 p {
@@ -70,15 +70,15 @@ h1:hover {
 }
 
 .about h1 {
-	margin-top: 25%;
+	margin-top: 20vh;
 }
 
 .resume h1 {
-	margin-top: 65%;
+	margin-top: 50vh;
 }
 
 .contact h1 {
-	margin-top: 110%;
+	margin-top: 70vh;
 }
 
 h3{
@@ -96,42 +96,42 @@ h3{
 	background-color: #FF7171;
 	float: left;
 	height: 100vh;
-	width: 34%;
+	width: 34vw;
 }
 
 .resume{
 	background-color: #5F9F5F;
 	float: left;
 	height: 100vh;
-	width: 33%;
+	width: 33vw;
 }
 
 .contact{
 	background-color: #FFFF71;
 	float: left;
 	height: 100vh;
-	width: 33%;
+	width: 33vw;
 }
 
 .apage{
 	background-color: #FF7171;
 	float: left;
 	height: 100vh;
-	width: 100%;
+	width: 100vw;
 }
 
 .rpage{
 	background-color: #5F9F5F;
 	float: left;
 	height: 100vh;
-	width: 100%;
+	width: 100vw;
 }
 
 .cpage{
 	background-color: #FFFF71;
 	float: left;
 	height: 100vh;
-	width: 100%;
+	width: 100vw;
 }
 
 @media screen and (max-width:950px){
