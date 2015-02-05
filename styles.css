@@ -1,3 +1,6 @@
+html{
+	width: 100vw;
+}
 body{
 	background-color: pink;
 	color: #291400;
@@ -40,7 +43,7 @@ a{
 }
 /*#291400*/
 h1 a {
-	color: #321900;
+	color: #3B1E00;
 	font-size: 4.9vw;
 }
 
@@ -93,42 +96,42 @@ h3{
 }
 
 .about{
-	background-color: #FF7171;
+	background-color: #FF9C9C;
 	float: left;
 	height: 100vh;
-	width: 34vw;
+	width: 33vw;
 }
 
 .resume{
-	background-color: #5F9F5F;
+	background-color: #8FBC8F;
 	float: left;
 	height: 100vh;
 	width: 33vw;
 }
 
 .contact{
-	background-color: #FFFF71;
+	background-color: #FFFF9C;
 	float: left;
 	height: 100vh;
 	width: 33vw;
 }
 
 .apage{
-	background-color: #FF7171;
+	background-color: #FF9C9C;
 	float: left;
 	height: 100vh;
 	width: 100vw;
 }
 
 .rpage{
-	background-color: #5F9F5F;
+	background-color: #8FBC8F;
 	float: left;
 	height: 100vh;
 	width: 100vw;
 }
 
 .cpage{
-	background-color: #FFFF71;
+	background-color: #FFFF9C;
 	float: left;
 	height: 100vh;
 	width: 100vw;
