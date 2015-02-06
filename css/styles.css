@@ -1,0 +1,158 @@
+/* Tags */
+
+a{
+	color: #291400;
+	padding-right: .5em;
+	padding-left: .5em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	text-decoration: none;
+}
+
+body{
+	background-color: #FFFF8D;
+	color: #291400;
+	font-family: 'Lobster', Sans;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+}
+
+/* Old Brown #291400 */
+h1 a {
+	color: #3B1E00;
+	font-size: 7vw;
+}
+
+h1 {
+	position: relative;
+}
+
+h1:hover {
+	-webkit-animation: bounce 2s;
+    animation: bounce 2s;
+}
+
+h3{
+	background: yellow;
+	font-family: 'Lobster', Sans;
+	font-size: 4.0vw;
+}
+
+img {
+	height: auto;
+	width: 30%;
+	max-width: 100%;
+	margin: 2%;
+	float: left;
+}
+
+p {
+	background: blue;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 2.5vmin;
+	width: 300px;
+	float: left;
+}
+
+/* Classes */
+
+.about{
+	background-color: #FF8D8D;
+	float: left;
+	height: 100vh;
+	width: 33vw;
+}
+
+.resume{
+	background-color: #7FB27F;
+	float: left;
+	height: 100vh;
+	width: 33vw;
+}
+
+.contact{
+	background-color: #FFFF8D;
+	float: left;
+	height: 100vh;
+	width: 33vw;
+}
+
+.about h1 {
+	margin-top: 20vh;
+}
+
+.resume h1 {
+	margin-top: 50vh;
+}
+
+.contact h1 {
+	margin-top: 70vh;
+}
+
+.apage{
+	background-color: #FF8D8D;
+	float: left;
+	height: 100vh;
+	width: 100vw;
+}
+
+.rpage{
+	background-color: #7FB27F;
+	float: left;
+	height: 100vh;
+	width: 100vw;
+}
+
+.cpage{
+	background-color: #FFFF8D;
+	float: left;
+	height: 100vh;
+	width: 100vw;
+}
+
+.centre{
+	margin: 7%;
+	position: inherit;
+}
+
+.goUp {
+	background: white;
+	float: left;
+}
+
+.goUp a {
+	font-size: 2em;
+}
+
+/* Animations */
+
+@-webkit-keyframes bounce {
+    0% {left: 0px; top: 0px;}
+	25% {left: 0px; top: 30px;}
+	50% {left: 0px; top: 0px;}
+	75% {left: 0px; top: 15px;}
+	100% {left: 0px; top: 0px;}
+}
+
+@keyframes bounce {
+    0% {left: 0px; top: 0px;}
+	25% {left: 0px; top: 30px;}
+	50% {left: 0px; top: 0px;}
+	75% {left: 0px; top: 15px;}
+	100% {left: 0px; top: 0px;}
+}
+
+/* Screen Adjustments */
+
+@media screen and (max-width:950px){
+
+	.apage, .rpage, .cpage {
+		height: 160vh;
+	}
+	
+	h3{
+		margin-bottom: 30%;
+	}
+}
