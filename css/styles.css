@@ -9,7 +9,7 @@ a{
 	text-decoration: none;
 }
 
-a:hover{
+a:hover, a:visited, a:focus{
 	color: #3B1D00;
 	text-decoration: none;
 }
@@ -21,6 +21,7 @@ body{
 	height: 100vh;
 	width: 100vw;
 	margin: 0;
+	min-width: 300px;
 }
 
 /* Old Brown #291400 */
@@ -55,8 +56,10 @@ p {
 	background: blue;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 1.7vw;
+	font-size: 1em;
 	width: 50vw;
+	min-width: 150px;
+	max-height: 60vh;
 }
 
 /* Classes */
@@ -150,13 +153,13 @@ p {
 
 /* Screen Adjustments */
 
-@media screen and (max-width:950px){
+@media screen and (max-width:999px){
 
 	.apage, .rpage, .cpage {
-		height: 160vh;
+		height: 140vh;
 	}
 	
-	h3{
+	/*h3{
 		margin-bottom: 30%;
-	}
-}
+	}*/
+} 
