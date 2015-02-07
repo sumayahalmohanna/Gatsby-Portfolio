@@ -15,7 +15,7 @@ a:hover, a:visited, a:focus{
 }
 
 body{
-	background-color: #FFFF8D;
+	background-color: purple;/*#FFFF8D;*/
 	color: #3B1D00;
 	font-family: 'Lobster', Sans;
 	height: 100vh;
@@ -68,21 +68,21 @@ p {
 	background-color: #FF8D8D;
 	float: left;
 	height: 100vh;
-	width: 33vw;
+	width: 33.3vw;
 }
 
 .resume{
 	background-color: #7FB27F;
 	float: left;
 	height: 100vh;
-	width: 33vw;
+	width: 33.3vw;
 }
 
 .contact{
 	background-color: #FFFF8D;
 	float: left;
 	height: 100vh;
-	width: 33vw;
+	width: 33.4vw;
 }
 
 .about h1 {
@@ -101,21 +101,21 @@ p {
 	background-color: #FF8D8D;
 	float: left;
 	height: 100vh;
-	width: 100vw;
+	width: 101.7vw;
 }
 
 .rpage{
 	background-color: #7FB27F;
 	float: left;
 	height: 100vh;
-	width: 100vw;
+	width: 101.7vw;
 }
 
 .cpage{
 	background-color: #FFFF8D;
 	float: left;
 	height: 100vh;
-	width: 100vw;
+	width: 101.7vw;
 }
 
 .centre{
