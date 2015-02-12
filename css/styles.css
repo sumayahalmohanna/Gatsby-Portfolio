@@ -15,7 +15,7 @@ a:hover, a:visited, a:focus{
 }
 
 body{
-	background-color: purple;/*#FFFF8D;*/
+	background-color: #3B1D00;
 	color: #3B1D00;
 	font-family: 'Lobster', Sans;
 	height: 100vh;
@@ -40,7 +40,6 @@ h1:hover {
 }
 
 h3{
-	background: yellow;
 	font-family: 'Lobster', Sans;
 	font-size: 5vw;
 }
@@ -53,13 +52,15 @@ img {
 }
 
 p {
-	background: blue;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
 	width: 50vw;
 	min-width: 150px;
 	max-height: 60vh;
+	margin-left: 3%;
+	margin-top: 4%;
+	text-indent: 3%;
 }
 
 /* Classes */
@@ -124,7 +125,6 @@ p {
 }
 
 .goUp {
-	background: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
@@ -156,16 +156,30 @@ p {
 @media screen and (max-width:999px){
 
 	.apage, .rpage, .cpage {
-		height: 140vh;
+		height: 110vh;
 	}
 } 
 
 @media screen and (max-width:450px){
+	h3{
+		font-size: 2.3em;
+		margin-left: 5%;
+	}
 	img{
 		height: auto;
 		width: 40vw;
 		margin-left: 30%;
 	}
+
+	p{
+		font-size: 1.2em;
+		font-weight: 400;
+		margin-left: 5%;
+		margin-top: 4%;
+		text-indent: 10%;
+		width: 80vw;
+	}
+
 	.about{
 		background-color: #FF8D8D;
 		float: left;
@@ -200,5 +214,13 @@ p {
 	.contact h1 {
 		margin-top: 11vh;
 		margin-left: 30vW;
+	}
+
+	.goUp {
+		margin-left: 2%;
+	}
+
+	.goUp a {
+		font-size: 1.5em;
 	}
 }/*end of media query max-width: 450px*/
