@@ -1,27 +1,23 @@
 /* Tags */
 
-a{
+a {
 	color: #3B1D00;
-	padding-right: .5em;
-	padding-left: .5em;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	text-decoration: none;
+	padding: 1.5em .5em 1.5em .5em;
 }
 
-a:hover, a:visited, a:focus{
+a:hover, a:visited, a:focus {
 	color: #3B1D00;
 	text-decoration: none;
 }
 
-body{
+body {
 	background-color: #3B1D00;
 	color: #3B1D00;
-	font-family: 'Lobster', Sans;
+	font-family: 'Lobster', sans-serif;
 	height: 100vh;
 	width: 100vw;
 	margin: 0;
-	min-width: 300px;
+	min-width: 340px;
 }
 
 /* Old Brown #291400 */
@@ -39,9 +35,9 @@ h1:hover {
     animation: bounce 2s;
 }
 
-h3{
-	font-family: 'Lobster', Sans;
+h3 {
 	font-size: 5vw;
+	margin-left: 3%;
 }
 
 img {
@@ -54,32 +50,32 @@ img {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 1em;
-	width: 50vw;
+	font-size: 1.5em;
+	width: 60vw;
 	min-width: 150px;
 	max-height: 60vh;
 	margin-left: 3%;
 	margin-top: 4%;
-	text-indent: 3%;
+	text-indent: 4%;
 }
 
 /* Classes */
 
-.about{
+.about {
 	background-color: #FF8D8D;
 	float: left;
 	height: 100vh;
 	width: 33.3vw;
 }
 
-.resume{
+.resume {
 	background-color: #7FB27F;
 	float: left;
 	height: 100vh;
 	width: 33.3vw;
 }
 
-.contact{
+.contact {
 	background-color: #FFFF8D;
 	float: left;
 	height: 100vh;
@@ -98,28 +94,28 @@ p {
 	margin-top: 60vh;
 }
 
-.apage{
+.apage {
 	background-color: #FF8D8D;
 	float: left;
 	height: 100vh;
 	width: 101.7vw;
 }
 
-.rpage{
+.rpage {
 	background-color: #7FB27F;
 	float: left;
 	height: 100vh;
 	width: 101.7vw;
 }
 
-.cpage{
+.cpage {
 	background-color: #FFFF8D;
 	float: left;
 	height: 100vh;
 	width: 101.7vw;
 }
 
-.centre{
+.centre {
 	margin: 7%;
 	position: inherit;
 }
@@ -127,6 +123,8 @@ p {
 .goUp {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
+	margin-left: 1%;
+	margin-top: 2%;
 }
 
 .goUp a {
@@ -153,25 +151,57 @@ p {
 
 /* Screen Adjustments */
 
-@media screen and (max-width:999px){
+@media screen and (max-width:991px) {
+
+	h3 {
+		font-size: 2.8em;
+		margin-left: 5%;
+	}
+
+	img {
+		height: auto;
+		width: 35vw;
+		margin-left: 30%;
+	}
+
+	p {
+		font-size: 3.8vmin;
+		width: 80vw;
+		margin-left: 5%;
+	}
 
 	.apage, .rpage, .cpage {
-		height: 110vh;
+		height: 142vh;
+	}
+
+	.goUp {
+		margin-left: 3%;
+	}
+
+	.goUp a {
+		font-size: 1.7em;
 	}
 } 
 
-@media screen and (max-width:450px){
-	h3{
+@media screen and (max-width:600px) {
+	.apage, .rpage, .cpage {
+		height: 125vh;
+	}
+}
+
+@media screen and (max-width:450px) {
+	h3 {
 		font-size: 2.3em;
 		margin-left: 5%;
 	}
-	img{
+
+	img {
 		height: auto;
 		width: 40vw;
 		margin-left: 30%;
 	}
 
-	p{
+	p {
 		font-size: 1.2em;
 		font-weight: 400;
 		margin-left: 5%;
@@ -180,21 +210,21 @@ p {
 		width: 80vw;
 	}
 
-	.about{
+	.about {
 		background-color: #FF8D8D;
 		float: left;
 		height: 33.3vh;
 		width: 100vw;
 	}
 
-	.resume{
+	.resume {
 		background-color: #7FB27F;
 		float: left;
 		height: 33.3vh;
 		width: 100vw;
 	}
 
-	.contact{
+	.contact {
 		background-color: #FFFF8D;
 		float: left;
 		height: 33.4vh;
