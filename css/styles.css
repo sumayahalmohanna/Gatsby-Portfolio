@@ -160,7 +160,7 @@ p {
 
 	img {
 		height: auto;
-		width: 35vw;
+		width: 28vw;
 		margin-left: 30%;
 	}
 
@@ -182,12 +182,12 @@ p {
 		font-size: 1.7em;
 	}
 } 
-
+/*
 @media screen and (max-width:600px) {
 	.apage, .rpage, .cpage {
-		height: 125vh;
+		height: 135vh;
 	}
-}
+}*/
 
 @media screen and (max-width:450px) {
 	h3 {
