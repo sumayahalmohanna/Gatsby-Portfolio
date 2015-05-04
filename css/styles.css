@@ -11,7 +11,7 @@ a:hover, a:visited, a:focus {
 }
 
 body {
-	background-color: #3B1D00;
+	background-image: url("../img/bgPattern.png");
 	color: #3B1D00;
 	font-family: 'Lobster', sans-serif;
 	height: 100vh;
@@ -32,23 +32,25 @@ h1 {
 
 h1:hover {
 	-webkit-animation: bounce 2s;
+	-moz-animation: bounce 2s;
+	-ms-animatioon: bounce 2s;
     animation: bounce 2s;
 }
 
 h3 {
-	font-size: 5vw;
+	font-size: 4vw;
 	margin-left: 3%;
 }
 
 img {
 	height: auto;
 	width: 30vw;
-	max-width: 100%;
+	max-width: 80%;
 	margin: 2%;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: 300;
 	font-size: 1.5em;
 	width: 60vw;
@@ -65,21 +67,18 @@ p {
 	background-color: #FF8D8D;
 	float: left;
 	height: 100vh;
-	width: 33.3vw;
 }
 
 .resume {
 	background-color: #7FB27F;
 	float: left;
 	height: 100vh;
-	width: 33.3vw;
 }
 
 .contact {
 	background-color: #FFFF8D;
 	float: left;
 	height: 100vh;
-	width: 33.4vw;
 }
 
 .about h1 {
@@ -96,23 +95,17 @@ p {
 
 .apage {
 	background-color: #FF8D8D;
-	float: left;
 	height: 100vh;
-	width: 101.7vw;
 }
 
 .rpage {
 	background-color: #7FB27F;
-	float: left;
 	height: 100vh;
-	width: 101.7vw;
 }
 
 .cpage {
 	background-color: #FFFF8D;
-	float: left;
 	height: 100vh;
-	width: 101.7vw;
 }
 
 .centre {
@@ -128,7 +121,8 @@ p {
 }
 
 .goUp a {
-	font-size: 3vw;
+	font-size: 2vw;
+	margin-right: 5%;
 }
 
 /* Animations */
@@ -165,7 +159,7 @@ p {
 	}
 
 	p {
-		font-size: 3.8vmin;
+		font-size: 3.2vmin;
 		width: 80vw;
 		margin-left: 5%;
 	}
@@ -181,21 +175,17 @@ p {
 	.goUp a {
 		font-size: 1.7em;
 	}
-} 
-/*
-@media screen and (max-width:600px) {
-	.apage, .rpage, .cpage {
-		height: 135vh;
-	}
-}*/
+}
 
 @media screen and (max-width:450px) {
 	h3 {
 		font-size: 2.3em;
+		float: left;
 		margin-left: 5%;
 	}
 
 	img {
+		display: block;
 		height: auto;
 		width: 40vw;
 		margin-left: 30%;
@@ -204,6 +194,7 @@ p {
 	p {
 		font-size: 1.2em;
 		font-weight: 400;
+		float: left;
 		margin-left: 5%;
 		margin-top: 4%;
 		text-indent: 10%;
@@ -214,21 +205,18 @@ p {
 		background-color: #FF8D8D;
 		float: left;
 		height: 33.3vh;
-		width: 100vw;
 	}
 
 	.resume {
 		background-color: #7FB27F;
 		float: left;
 		height: 33.3vh;
-		width: 100vw;
 	}
 
 	.contact {
 		background-color: #FFFF8D;
 		float: left;
 		height: 33.4vh;
-		width: 100vw;
 	}
 
 	.about h1 {
@@ -252,5 +240,6 @@ p {
 
 	.goUp a {
 		font-size: 1.5em;
+		margin-right: 8%;
 	}
 }/*end of media query max-width: 450px*/
