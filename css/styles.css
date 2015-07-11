@@ -43,6 +43,7 @@ h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2vw;
 	font-weight: 700;
+	margin-left: 3%;
 	position: relative;
 }
 
@@ -63,12 +64,11 @@ p {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: 300;
 	font-size: 1.5em;
-	width: 60vw;
+	max-width: 60vw;
 	min-width: 150px;
 	max-height: 60vh;
 	margin-left: 3%;
 	margin-top: 4%;
-	text-indent: 4%;
 }
 
 video {
@@ -130,26 +130,14 @@ video {
 .goUp {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	margin-left: 1%;
-	margin-top: 2%;
+	position: fixed;
+	left: 1%;
+	top: 90%;
 }
 
 .goUp a {
 	font-size: 2vw;
 	margin-right: 5%;
-}
-
-.box {
-	background-color: rgb(106, 140, 250);
-	height: 220px;
-	margin-top: 10%;
-	margin-left: 10%;
-	margin-bottom: 10%;
-	width: 320px;
-}
-
-.box h4 {
-	padding-top: 25%;
 }
 
 /* Animations */
