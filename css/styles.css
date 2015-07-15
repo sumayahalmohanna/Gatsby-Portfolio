@@ -118,6 +118,11 @@ video {
 	min-height: 100vh;
 }
 
+.wpage {
+	background-color: #718DE2;
+	min-height: 100vh;
+}
+
 .cpage {
 	background-color: #FFFF8D;
 	min-height: 100vh;
