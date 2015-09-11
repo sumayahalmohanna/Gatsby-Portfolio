@@ -1,273 +1,140 @@
-/* Tags */
 
-a {
-	color: #3B1D00;
-	padding: 1.5em;
+
+/*======================= HTML tags =========================*/
+
+/*==================== End HTML tags ========================*/
+
+/*======================== Custom Classes =======================*/
+
+.black-row {
+	background-color: #111;
+	color: #fff;
+	padding: 6% 5%;
 }
 
-a:hover, a:visited, a:focus {
-	color: #3B1D00;
-	text-decoration: none;
+.white-row {
+	background-color: #fff;
+	color: #222;
+	padding: 6% 0px;
 }
 
-body {
-	background-image: url("../img/bgPattern.png");
-	color: #3B1D00;
-	font-family: 'Lobster', sans-serif;
-	min-width: 340px;
+.push-down-min {
+	padding-top: 20px;
 }
 
-/* Old Brown #291400 */
-h1 a {
-	color: #3B1D00;
-	font-size: 6vw;
+.push-down-max {
+	padding-top: 40px;
 }
 
-h1 {
-	position: relative;
+.center-text {
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-h1:hover {
-	-webkit-animation: bounce 2s;
-	-moz-animation: bounce 2s;
-	-ms-animatioon: bounce 2s;
-    animation: bounce 2s;
+.text-width {
+	width: 85%;
 }
 
-h3 {
-	font-size: 4vw;
-	margin-left: 3%;
+.h3-text {
+	font-family: 'Arvo', Georgia, Times, serif;
+	font-size: 3.2em;
 }
 
-h4 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 2vw;
-	font-weight: 700;
-	margin-left: 3%;
-	position: relative;
-}
-
-h5 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	margin-left: 15%;
-}
-
-img {
-	height: auto;
-	width: 30vw;
-	max-width: 80%;
-	margin: 2%;
-}
-
-p {
-	font-family: 'Noto Sans', sans-serif;
-	font-weight: 300;
+.p-text  {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
-	max-width: 60vw;
-	min-width: 150px;
-	max-height: 60vh;
-	margin-left: 3%;
-	margin-top: 4%;
 }
 
-video {
-	height: auto;
-	margin-top: 10%;
-	margin-left: 10%;
-	margin-bottom: 10%;
-	width: auto;
+.bold-text {
+	font-weight: bold;
 }
 
-/* Classes */
-
-.about {
-	background-color: #FF8D8D;
-	height: 100vh;
+.arvo {
+	font-family: 'Arvo', Georgia, Times, serif;
+    font-size: 2.3em;
 }
 
-.resume {
-	background-color: #7FB27F;
-	height: 100vh;
+.pt-sans {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 2em;
 }
+/*======================= End Custom Classes =======================*/
 
-.contact {
-	background-color: #FFFF8D;
-	height: 100vh;
+/*======================== Media Breaks ============================*/
+
+@media(max-width:842px) {
+    .arvo {
+    	font-size: 2em;
+    }
+    .pt-sans {
+    	font-size: 1.8em;
+    }
 }
-
-.about h1 {
-	margin-top: 20vh;
-}
-
-.resume h1 {
-	margin-top: 40vh;
-}
-
-.contact h1 {
-	margin-top: 60vh;
-}
-
-.apage {
-	background-color: #FF8D8D;
-	min-height: 100vh;
-}
-
-.rpage {
-	background-color: #7FB27F;
-	min-height: 100vh;
-}
-
-.wpage {
-	background-color: #718DE2;
-	min-height: 100vh;
-}
-
-.cpage {
-	background-color: #FFFF8D;
-	min-height: 100vh;
-}
-
-.centre {
-	position: inherit;
-}
-
-.goUp {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
-	position: fixed;
-	left: 1%;
-	top: 90%;
-}
-
-.goUp a {
-	font-size: 2vw;
-	margin-right: 5%;
-}
-
-/* Animations */
-
-@-webkit-keyframes bounce {
-    0% {left: 0px; top: 0px;}
-	25% {left: 0px; top: 30px;}
-	50% {left: 0px; top: 0px;}
-	75% {left: 0px; top: 15px;}
-	100% {left: 0px; top: 0px;}
-}
-
-@keyframes bounce {
-    0% {left: 0px; top: 0px;}
-	25% {left: 0px; top: 30px;}
-	50% {left: 0px; top: 0px;}
-	75% {left: 0px; top: 15px;}
-	100% {left: 0px; top: 0px;}
-}
-
-/* Screen Adjustments */
-
-@media screen and (max-width:991px) {
-
-	h3 {
-		font-size: 2.8em;
-		margin-left: 5%;
+/*767 is where layout changes*/
+@media(max-width:767px) {
+    .h3-text {
+		font-size: 3em;
 	}
 
-	h4 {
+	.text-width {
+		width: 100%;
+	}
+
+	.text-right {
+		text-align: center;
+	}
+
+    .img-center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.black-row {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.push-down {
+		padding-top: 20px;
+	}
+
+	.center-col {
+		margin: 15px 25%;
+	}
+}
+
+@media(max-width:460px){
+	.logo {
+    	height: 120px;
+    	width: 120px;
+    }
+
+	.center-col {
+		margin: 10px 10%;
+	}
+
+	.h3-text {
+		font-size: 2.1em;
+	}
+
+	.p-text {
+		font-size: 1.2em;
+	}
+}
+
+@media(max-width:387px) {
+	.arvo {
+		font-size: 1.8em;
+	}
+
+	.pt-sans {
 		font-size: 1.6em;
-		margin-left: 18%;
-	}
-
-	img {
-		height: auto;
-		width: 28vw;
-		margin-left: 30%;
-	}
-
-	p {
-		font-size: 2.8vmin;
-		width: 80vw;
-		margin-left: 5%;
-	}
-
-	.goUp {
-		margin-left: 3%;
-	}
-
-	.goUp a {
-		font-size: 1.7em;
-		margin-bottom: 10%;
 	}
 }
+/*=====================End Media Breaks ===========================*/
 
-@media screen and (max-width:450px) {
-	h3 {
-		font-size: 2.3em;
-		float: left;
-		margin-left: 5%;
-	}
 
-	img {
-		display: block;
-		height: auto;
-		width: 40vw;
-		margin-left: 30%;
-	}
 
-	p {
-		font-size: .8em;
-		font-weight: 400;
-		float: left;
-		margin-left: 5%;
-		margin-top: 4%;
-		text-indent: 10%;
-		width: 80vw;
-	}
-
-	.about {
-		background-color: #FF8D8D;
-		float: left;
-		height: 33.3vh;
-	}
-
-	.resume {
-		background-color: #7FB27F;
-		float: left;
-		height: 33.3vh;
-	}
-
-	.contact {
-		background-color: #FFFF8D;
-		float: left;
-		height: 33.4vh;
-	}
-
-	.about h1 {
-		margin-top: 11vh;
-		margin-left: 30vw;
-	}
-
-	.resume h1 {
-		margin-top: 11vh;
-		margin-left: 30vw;
-	}
-
-	.contact h1 {
-		margin-top: 11vh;
-		margin-left: 30vW;
-	}
-
-	.goUp {
-		margin-left: 2%;
-	}
-
-	.goUp a {
-		font-size: 1.5em;
-		margin-right: 8%;
-	}
-
-	.email {
-		font-size: .9em; 
-	}
-
-	
-}/*end of media query max-width: 450px*/
+/*==========================================================*/
+/*==========================================================*/
