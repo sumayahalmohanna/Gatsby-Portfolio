@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="box1.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="91.334004"
+     inkscape:cy="88.567667"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="1912"
+     inkscape:window-y="109"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="-95,65.714286"
+       id="guide3778" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-852.36218)"
+     style="opacity:1">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#a4a3a0;stroke-width:0.03574380000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985"
+       width="202.98074"
+       height="202.54761"
+       x="-1.4679607"
+       y="851.62445" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer">
+    <text
+       xml:space="preserve"
+       style="font-size:38.99435425000000100px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f64300;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Impact"
+       x="24.387316"
+       y="73.870987"
+       id="text3766"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3768"
+         x="24.387316"
+         y="73.870987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#f64300;fill-opacity:1;letter-spacing:2px">&lt;code&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:38.99435425000000100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:2px;word-spacing:0px;fill:#f6d700;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Bold"
+       x="74.848663"
+       y="115.90557"
+       id="text3770"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3772"
+         x="74.848663"
+         y="115.90557"
+         style="font-weight:normal;-inkscape-font-specification:Impact;letter-spacing:2px">Foo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:38.99435425000000100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:2px;word-spacing:0px;fill:#f64300;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact"
+       x="24.387316"
+       y="153.32881"
+       id="text3774"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3776"
+         x="24.387316"
+         y="153.32881"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f64300;fill-opacity:1;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:2px"
+   id="tspan3818">&lt;</tspan>/code<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f64300;font-family:Impact;-inkscape-font-specification:Impact;fill-opacity:1;letter-spacing:2px"
+   id="tspan3824">&gt;</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43.74953461px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f6d700;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact"
+       x="-2862.0283"
+       y="29.26475"
+       id="text2985"
+       sodipodi:linespacing="125%"
+       transform="scale(0.46520224,2.1496027)"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="-2862.0283"
+         y="29.26475"
+         style="font-size:78.74916077px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f6d700;fill-opacity:1;font-family:Impact;-inkscape-font-specification:Impact">Updating Site</tspan></text>
+  </g>
+</svg>

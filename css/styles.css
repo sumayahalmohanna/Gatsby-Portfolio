@@ -15,7 +15,7 @@
 .white-row {
 	background-color: #fff;
 	color: #222;
-	padding: 6% 0px;
+	padding: 6% 5%;
 }
 
 .push-down-min {
@@ -26,14 +26,18 @@
 	padding-top: 40px;
 }
 
+.push-right {
+	text-align: right;
+}
+
+.footer {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
 .center-text {
 	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
-}
-
-.text-width {
-	width: 85%;
 }
 
 .h3-text {
@@ -41,9 +45,20 @@
 	font-size: 3.2em;
 }
 
+.h4-text {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
 .p-text  {
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
+}
+
+.ul-text {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 1.3em;
 }
 
 .bold-text {
@@ -77,8 +92,8 @@
 		font-size: 3em;
 	}
 
-	.text-width {
-		width: 100%;
+	.ul-text {
+		font-size: 1.2em;
 	}
 
 	.text-right {
@@ -90,17 +105,18 @@
 		margin-right: auto;
 	}
 
-	.black-row {
+	.black-row,
+	.white-row {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
 
-	.push-down {
-		padding-top: 20px;
-	}
+	.push-right {
+	text-align: left;
+}
 
 	.center-col {
-		margin: 15px 25%;
+		margin: 15px 0 15px 25%;
 	}
 }
 
@@ -111,11 +127,19 @@
     }
 
 	.center-col {
-		margin: 10px 10%;
+		margin: 10px 7%;
 	}
 
 	.h3-text {
 		font-size: 2.1em;
+	}
+
+	.h4-text {
+		font-size: 1.3em;
+	}
+
+	.ul-text {
+		font-size: 1.1em;
 	}
 
 	.p-text {
