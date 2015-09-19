@@ -25,16 +25,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="91.334004"
-     inkscape:cy="88.567667"
+     inkscape:cx="72.205501"
+     inkscape:cy="96.958237"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="1912"
-     inkscape:window-y="109"
-     inkscape:window-maximized="1"
+     inkscape:window-width="708"
+     inkscape:window-height="423"
+     inkscape:window-x="553"
+     inkscape:window-y="140"
+     inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
@@ -74,7 +74,7 @@
      inkscape:label="Layer">
     <text
        xml:space="preserve"
-       style="font-size:38.99435425000000100px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f64300;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Impact"
+       style="font-size:38.99435425000000100px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#004a68;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Impact"
        x="24.387316"
        y="73.870987"
        id="text3766"
@@ -83,10 +83,10 @@
          id="tspan3768"
          x="24.387316"
          y="73.870987"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#f64300;fill-opacity:1;letter-spacing:2px">&lt;code&gt;</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#004a68;fill-opacity:1;letter-spacing:2px">&lt;code&gt;</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:38.99435425000000100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:2px;word-spacing:0px;fill:#f6d700;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Bold"
+       style="font-size:38.99435425000000100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:2px;word-spacing:0px;fill:#00a5e7;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Bold"
        x="74.848663"
        y="115.90557"
        id="text3770"
@@ -95,10 +95,10 @@
          id="tspan3772"
          x="74.848663"
          y="115.90557"
-         style="font-weight:normal;-inkscape-font-specification:Impact;letter-spacing:2px">Foo</tspan></text>
+         style="font-weight:normal;-inkscape-font-specification:Impact;letter-spacing:2px;fill:#00a5e7;fill-opacity:1">Foo</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:38.99435425000000100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:2px;word-spacing:0px;fill:#f64300;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact"
+       style="font-size:38.99435425000000100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:2px;word-spacing:0px;fill:#004a68;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact"
        x="24.387316"
        y="153.32881"
        id="text3774"
@@ -107,9 +107,9 @@
          id="tspan3776"
          x="24.387316"
          y="153.32881"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f64300;fill-opacity:1;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:2px"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#004a68;fill-opacity:1;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:2px"
    id="tspan3818">&lt;</tspan>/code<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#f64300;font-family:Impact;-inkscape-font-specification:Impact;fill-opacity:1;letter-spacing:2px"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#004a68;font-family:Impact;-inkscape-font-specification:Impact;fill-opacity:1;letter-spacing:2px"
    id="tspan3824">&gt;</tspan></tspan></text>
     <text
        xml:space="preserve"

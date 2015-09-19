@@ -32,6 +32,7 @@
 
 .footer {
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	color: #0078A7;
 }
 
 .center-text {
@@ -56,6 +57,11 @@
 	font-size: 1.5em;
 }
 
+.p-text-small {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+}
+
 .ul-text {
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.3em;
@@ -73,6 +79,27 @@
 .pt-sans {
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     font-size: 2em;
+}
+
+.formError {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	color: red;
+	text-align: center;
+	visibility: hidden;
+}
+
+.circle-qoute {
+	background-color: #00A5E7;
+	border-radius: 60%;
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 70px;
+    text-align: center;
+    width: 200px;
 }
 /*======================= End Custom Classes =======================*/
 
@@ -142,7 +169,8 @@
 		font-size: 1.1em;
 	}
 
-	.p-text {
+	.p-text,
+	.p-text-small {
 		font-size: 1.2em;
 	}
 }

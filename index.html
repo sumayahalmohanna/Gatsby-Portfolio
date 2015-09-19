@@ -83,30 +83,105 @@ Framework used: http://getbootstrap.com/
                        <h4 class="h4-text">General Consulting</h4>
                        <ul class="ul-text">
                            <li>UX Design Reviews</li>
+                           <li>Search Engine Optimization</li>
                            <li>Blog Enhancements</li>
                         </ul>
                     </div>
                 </div>
 
-                <footer class="footer">
-                    <div class="row black-row">
+                <hr>
+
+                <div class="row white-row">
+                    <form class="form-horizontal col-sm-12">
+                        <fieldset>
+
+                        <!-- Form Name -->
+                        <legend>Get a Quote</legend>
+                        <p>Here you can get a quick qoute for some of my services:</p>
+                        <!-- Text input-->
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="textinput">Number of pages</label>  
+                          <div class="col-md-4">
+                          <input id="textinput" name="textinput" type="number" placeholder="Ex. 10" class="form-control input-md"> 
+                          </div>
+                          <span id="error" class="col-md-12 formError">Please enter the number of pages.</span>
+                        </div>
+
+                        <!-- Multiple Checkboxes -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="checkboxes">Services required</label>
+                            <div class="col-md-4">
+                                <div class="checkbox">
+                                    <label for="checkboxes-0">
+                                        <input type="checkbox" name="checkboxes" id="cbRD" value="1">
+                                        Responsive Design.
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="checkboxes-1">
+                                        <input type="checkbox" name="checkboxes" id="cbSEO" value="2">
+                                        Search Engine Optimization.
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="checkboxes-2">
+                                        <input type="checkbox" name="checkboxes" id="cbWP" value="3">
+                                        Website Performance Reviews.
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="checkboxes-2">
+                                        <input type="checkbox" name="checkboxes" id="cbUXD" value="3">
+                                        UX Design Reviews.
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="checkboxes-2">
+                                        <input type="checkbox" name="checkboxes" id="cbGM" value="3">
+                                        Adding Graphics and Media.
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label for="checkboxes-2">
+                                        <input type="checkbox" name="checkboxes" id="cbLD" value="3">
+                                        Logo Design.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Button (Double) -->
+                        <div class="form-group">
+                            <div class="col-md-8">
+                                <input id="clearForm" class="btn btn-danger" type="button" value="clear" onClick="this.form.reset()" />
+                                <input class="btn btn-primary" type="submit" value="Get Quote" />
+                            </div>
+                        </div>
+
+                        </fieldset>
+
+                        <div id="qoute" class="circle-qoute"></div>
+
+                    </form>
+                </div>
+
+                <div class="row black-row">
+                    <footer class="footer">
                         <div class="col-sm-6">
                             <h3>Contact Me:</h3>
                             <h4>sumayahabdullah@gmail.com</h4>
-                            <h4>here</h4>
-                            <h4>here</h4>
                         </div>
                         <div class="col-sm-6">
                             <h5 class="push-down-max push-right">Coded with <span class="glyphicon glyphicon-heart"></span> by Sumayah Almohanna</h5>
                         </div>
-                    </div>
-                </footer>
+                    </footer>
+                </div>
 
         </div><!--end container-->
 
         <script src="http://code.jquery.com/jquery.min.js"></script> 
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <!-- <script type="text/javascript" src="js/script.js"></script> -->
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
     
 </html>
