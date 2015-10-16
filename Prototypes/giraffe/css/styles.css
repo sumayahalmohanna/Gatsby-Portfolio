@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #333 url('../img/giraffe.jpg') no-repeat;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.logo {
+  color: #fff;
+  font-size: 9em;
+  font-weight: 100;
+  display: inline;
+}
+
+.logo small {
+  color: #fff;
+  font-weight: 100;
+}
+
+h3 > small {
+  color: #fff;
+}
+
+.left-pull {
+  position: relative;
+  left: -7px;
+}
+
+h3 {
+  color: #3380EF;
+  font-weight: 500;
+  font-size: 2em;
+  text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+}
+
+h4 {
+  color: #fff;
+}
+
+h4 > a,
+h4 > a:hover,
+h4 > a:visited {
+  color: #3380EF;
+}
+
+.blah {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.giraffe {
+  width: 115px;
+  margin: 40px 0;
+  display: inline;
+}
+
+.glyphicon {
+  top: 24px;
+  font-size: 2em;
+}
+
+.circle2 {
+  background-color: #1067E4;
+  border-radius: 60%;
+  height: 200px;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 420px) {
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .blah {
+    font-size: 1em;
+  }
+
+  .logo {
+    font-size: 7em;
+  }
+
+  .giraffe {
+    width: 70px;
+  }
+}
