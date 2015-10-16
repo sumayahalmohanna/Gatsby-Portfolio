@@ -1,8 +1,12 @@
 User-agent: *
 Disallow: /img
+Disallow: /Prototypes/giraffe/img
+Disallow: /Prototypes/peanuts/img
 
 User-agent: Googlebot-Image
 Disallow: /img
+Disallow: /Prototypes/giraffe/img
+Disallow: /Prototypes/peanuts/img
 
 User-agent: Googlebot-Image
 Disallow: /
