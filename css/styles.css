@@ -76,7 +76,7 @@
 }
 
 .h3-text {
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family: 'Abel', sans-serif;
 	font-size: 3.2em;
 }
 
@@ -130,14 +130,12 @@
 	height: 40px;
 }
 
-.arvo {
-	font-family: 'Arvo', Georgia, Times, serif;
-    font-size: 2.3em;
+.abel {
+	font-family: 'Abel', sans-serif;
 }
 
 .pt-sans {
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    font-size: 2em;
 }
 
 .about-pic {
