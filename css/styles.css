@@ -10,7 +10,7 @@
 .blue-row {
 	background-color: #0078A7;
 	color: #fff;
-	padding: 6% 5%;
+	padding: 6% 5% 1% 5%;
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 .white-row {
@@ -68,20 +68,20 @@
 }
 
 .portfolio {
-	width: 470px;
-	height: 260px;
-	margin-bottom: 18px;
-	margin-left: 15px;
+	border: solid 4px #fff;
 }
 
 .portfolio:hover {
 	border: solid 4px #0078A7;
 }
 
+.graphic img {
+	max-width: 100%;
+	max-height: 70%;
+}
+
 .center-text {
-	text-align: left;
-	margin-right: auto;
-	margin-left: auto;
+	text-align: center;
 }
 
 .center-break {
@@ -158,6 +158,11 @@
 	max-width: 245px;
 }
 
+.copy-right {
+	text-align: center;
+
+}
+
 .formError {
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 	color: red;
@@ -181,24 +186,11 @@
 /*======================= End Custom Classes =======================*/
 
 /*======================== Media Breaks ============================*/
-@media(max-width:1100px) {
-	.portfolio {
-		width: 340px;
-		height: 225px;
-	}
-}
 
 @media(max-width:842px) {
-    .arvo {
-    	font-size: 2em;
-    }
     .pt-sans {
     	font-size: 1.8em;
     }
-    .portfolio {
-		width: 325px;
-		height: 225px;
-	}
 }
 /*767 is where layout changes*/
 @media(max-width:767px) {
@@ -217,8 +209,8 @@
 	}
 
 	.push-right {
-	text-align: left;
-}
+		text-align: left;
+	}
 
 	.float-left {
 		float: left;
@@ -256,17 +248,9 @@
 	.p-text-small {
 		font-size: 1.2em;
 	}
-	.portfolio {
-		width: 218px;
-		height: 195px;
-	}
 }
 
 @media(max-width:387px) {
-	.arvo {
-		font-size: 1.8em;
-	}
-
 	.pt-sans {
 		font-size: 1.6em;
 	}
