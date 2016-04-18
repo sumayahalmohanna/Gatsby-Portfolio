@@ -1,0 +1,232 @@
+body {
+	font-family: 'Cabin', sans-serif;
+}
+
+.glyphicon.glyphicon-circle-arrow-up {
+	font-size: 4em;
+	text-align: center;
+	top: -23px;
+	right: 26px;
+}
+
+.glyphicon.glyphicon-chevron-right,
+.glyphicon.glyphicon-chevron-left {
+	font-size: 4em;
+}
+
+.push-down {
+	margin-top: 45px;
+}
+
+.header1 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 4em;
+	margin-top: 0px;
+	padding-top: 80px;
+}
+.headline {
+	color: #C1C0C0;
+}
+
+.header2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.paragraph {
+	font-size: 1.4em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.featurette-heading {
+	font-family: 'Raleway', sans-serif;
+	border-bottom: 2px dashed #0293CC;
+	padding-bottom: 5px;
+	width: 60%;
+}
+
+.featurette ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.featurette li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.featurette li:before {
+    content: "• ";
+	font-size: 1.5em;
+    color: #0293CC; 
+}
+
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+	color: #0293CC;
+}
+
+.carousel-indicators .active {
+	background-color: #0293CC;
+}
+
+.carousel-indicators li {
+	border: solid 1px #0293CC;
+}
+
+.blog {
+	color: #fff;
+	font-size: 2em;
+}
+
+.blog a {
+	color: #fff;
+}
+
+.row-black {
+	color: #fff;
+	width: 100%;
+	height: 350px;
+	background: url("../img/banner.png") repeat;
+}
+
+.row-blue {
+	background-color: #0293CC;
+	color: #fff;
+	height: auto;
+}
+
+/*
+#banner-scroll {
+width: 100%;
+height: 350px;
+background: url("../img/banner.png") repeat-x;
+animation: backgroundScroll 2s linear infinite alternate;
+}
+
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: 100% 0;}
+}
+*/
+img.logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	margin-top: -115px;
+	padding: 15px;
+	position: relative;
+	z-index: 5;
+}
+
+.btn-resume {
+	border: solid 2px #0293CC;
+	color: #0293CC;
+}
+.btn-resume:hover,
+.btn-resume:focus {
+	background-color: #0293CC;
+	color: #fff;
+}
+
+.btn-linkedin {
+	border: solid 2px #fff;
+	color: #fff;
+}
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+	background-color: #fff;
+	color: #0293CC;
+}
+
+.top {
+	background: #0293CC;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 100px;
+	right: 20px;
+	z-index: 10;
+	visibility: hidden;
+	opacity: 0;
+	padding: 10px 16px 10px 14px;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.top.top-is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+.top.top-fade-out {
+	opacity: .8;
+}
+
+.top span {
+	color: #fff;
+}
+
+@media (max-width: 900px) {
+	.glyphicon.glyphicon-circle-arrow-up,
+	.glyphicon.glyphicon-chevron-right,
+	.glyphicon.glyphicon-chevron-left {
+		font-size: 3em;
+	}
+	
+	.top {
+		width: 32px;
+		height: 36px;
+	}
+}
+
+@media (max-width: 600px) {
+	.paragraph {
+		font-size: 1em;
+		width: 100%;
+		text-align: left;
+	}
+	
+	.glyphicon.glyphicon-circle-arrow-up,
+	.glyphicon.glyphicon-chevron-right,
+	.glyphicon.glyphicon-chevron-left {
+		font-size: 2.3em;
+	}
+	.glyphicon.glyphicon-circle-arrow-up {
+		top: -17px;
+		right: 19px;
+	}
+	.top {
+		width: 32px;
+		height: 30px;
+	}
+	
+	.header1 {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 400px) {
+	.header1 {
+		font-size: 2em;
+	}
+	.headline {
+		font-size: 18px;
+	}
+	
+	.glyphicon.glyphicon-chevron-right,
+	.glyphicon.glyphicon-chevron-left {
+		font-size: 1.3em;
+	}
+	
+	.featurette-heading {
+		width: 85%;
+	}
+}
