@@ -3,10 +3,8 @@ body {
 }
 
 .glyphicon.glyphicon-circle-arrow-up {
+	color: #00739E;
 	font-size: 4em;
-	text-align: center;
-	top: -23px;
-	right: 26px;
 }
 
 .glyphicon.glyphicon-chevron-right,
@@ -145,10 +143,7 @@ img.logo {
 }
 
 .top {
-	background: #0293CC;
 	display: inline-block;
-	height: 50px;
-	width: 50px;
 	position: fixed;
 	bottom: 100px;
 	right: 20px;
@@ -180,11 +175,6 @@ img.logo {
 	.glyphicon.glyphicon-chevron-left {
 		font-size: 3em;
 	}
-	
-	.top {
-		width: 32px;
-		height: 36px;
-	}
 }
 
 @media (max-width: 600px) {
@@ -198,14 +188,6 @@ img.logo {
 	.glyphicon.glyphicon-chevron-right,
 	.glyphicon.glyphicon-chevron-left {
 		font-size: 2.3em;
-	}
-	.glyphicon.glyphicon-circle-arrow-up {
-		top: -17px;
-		right: 19px;
-	}
-	.top {
-		width: 32px;
-		height: 30px;
 	}
 	
 	.header1 {
