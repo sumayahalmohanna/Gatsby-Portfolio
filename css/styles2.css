@@ -2,6 +2,10 @@ body {
 	font-family: 'Cabin', sans-serif;
 }
 
+.img-circle {
+	width: 140px;
+}
+
 .glyphicon.glyphicon-circle-arrow-up {
 	color: #00739E;
 	font-size: 4em;
@@ -36,6 +40,10 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	
+}
+
+.featurette-image {
+	width: 200px;
 }
 
 .featurette-heading {
