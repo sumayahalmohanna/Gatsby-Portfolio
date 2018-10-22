@@ -1,258 +1,264 @@
-
-/*======================== Custom Classes =======================*/
-
-.black-row {
-	background-color: #111;
-	color: #fff;
-	padding: 6% 5%;
+.logo-card-left {
+	border-right: solid black 3px;
+	height: 100%;
+	width: 260px;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
 }
 
-.blue-row {
-	background-color: #0078A7;
-	color: #fff;
-	padding: 6% 5% 1% 5%;
-	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-}
-.white-row {
-	background-color: #fff;
-	color: #222;
-	padding: 6% 5%;
+.logo-card-left h3 {
+	font-size: 1.6em;
 }
 
-.push-down-min {
-	padding-top: 20px;
+.logo-card-left .paperplane {
+	margin: 10px;
+	padding: 15px;
+	width: 80px;
 }
 
-.push-down-max {
-	padding-top: 40px;
+.paperplane:hover {
+	animation: fly;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	cursor: pointer;
+	position: relative;
 }
 
-.push-up {
-	padding-bottom: 20px;
+@keyframes fly {
+    0%   {left:0px; top:0px;}
+    50%  {left:30px; top:0px;}
+    100% {left:0px; top:0px;}
 }
 
-.push-up-max {
-	padding-bottom: 30px;
-}
-
-.push-right {
-	text-align: right;
-}
-
-.text-right {
-	text-align: center;
-}
-
-.box-space {
-	padding-bottom: 5px;
-}
-
-.img-center {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.logo {
-	width: 150px;
-	height: 150px;
-}
-
-.services {
-	width: 200px;
-	height: 200px;
-}
-
-.banner {
-	width: 1100px;
-	height: 355px;
-}
-
-.portfolio {
-	border: solid 4px #fff;
-}
-
-.portfolio:hover {
-	border: solid 4px #0078A7;
-}
-
-.graphic img {
-	max-width: 100%;
-	max-height: 70%;
-}
-
-.center-text {
-	text-align: center;
-}
-
-.center-break {
-	font-size: 2em;
-	text-align: center;
-	margin: 5px;
-}
-
-.h3-text {
-	font-family: 'Abel', sans-serif;
-	font-size: 3.2em;
-}
-
-.h4-text {
-	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 1.4em;
-}
-
-.p-text  {
-	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-}
-
-.p-text-small {
-	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-	font-size: 1.4em;
-}
-
-.ul-text {
-	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-	font-size: 1.3em;
-	list-style: none;
-	padding-left: 10px;
-}
-
-.bold-text {
-	font-weight: bold;
-}
-
-.btn-default {
-	color: #0078A7;
-	background: #fff;
-	margin-top: 10px;
-	text-decoration: none;
-}
-
-.btn-default:hover,
-.btn-default:active,
-.btn-default:visited {
-	background: #fff;
-	color: #0078A7;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.breaks {
-	background-image: url('../img/breakbg.png');
-	color: #444;
-	letter-spacing: 1px;
-	height: 40px;
-}
-
-.abel {
-	font-family: 'Abel', sans-serif;
-}
-
-.pt-sans {
-	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-}
-
-.about-pic {
-	max-height: 319px;
-	max-width: 245px;
-}
-
-.copy-right {
-	text-align: center;
-
-}
-
-.formError {
-	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-	color: red;
-	text-align: center;
+.navbar {
 	visibility: hidden;
 }
 
-.circle-qoute {
-	background-color: #00A5E7;
-	border-radius: 60%;
-	color: #fff;
-	font-size: 3em;
-	font-weight: bold;
-	height: 200px;
+.my-container {
+	margin-left: 260px;
+}
+
+.section {
+	display: table;
+	height: 100vh;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 70px;
-    text-align: center;
-    width: 200px;
+	overflow: hidden;
+	padding-top: 15vh;
+	vertical-align: middle;
 }
-/*======================= End Custom Classes =======================*/
 
-/*======================== Media Breaks ============================*/
-
-@media(max-width:842px) {
-    .pt-sans {
-    	font-size: 1.8em;
-    }
+.card {
+	max-width: 88%;
+	max-height: 80%;
 }
-/*767 is where layout changes*/
-@media(max-width:767px) {
-    .h3-text {
+
+.work-sample {
+	float: left;
+	padding: 10px;
+}
+
+br {
+	clear: left;
+}
+
+.main-page-icon {
+	margin: 25px 15px 15px 15px;
+}
+
+.photo-grid img {
+	max-width: 85%;
+	margin: 20px auto 0 auto;
+}
+
+.nav-arrows {
+	float: right;
+	margin: 8px;
+}
+
+.nav-arrow-up {
+	border-bottom: solid 4px white;
+}
+
+.nav-arrow-down {
+	border-top: solid 4px white;
+}
+
+.nav-arrow-up:hover {
+	border-bottom: solid 4px #ffd100;
+	cursor: pointer;
+}
+
+.nav-arrow-down:hover {
+	border-top: solid 4px #ffd100;
+	cursor: pointer;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 2px solid black; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: white;
+	border: 2px solid black;
+	font-weight: bold;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #ffd100;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+    border-radius: 5px;
+    background-color: white;
+	border: 4px solid black;
+    padding: 20px;
+}
+
+/***************************Start of img grid settings*********************************/
+
+#grid[data-columns]::before {
+	content: '3 .column.size-1of3';
+}
+
+/* These are the classes that are going to be applied: */
+.column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of3 { width: 33.333%; }
+
+@media screen and (max-width: 480px){
+	#grid[data-columns]::before {
+		content: '1 .column.size-1of1';
+	}
+	.card {
+		max-width: 50%;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#grid[data-columns]::before {
+		content: '2 .column.size-1of2';
+	}
+	.card {
+		max-width: 60%;
+	}
+}
+@media screen and (min-width: 769px) {
+	#grid[data-columns]::before {
+		content: '3 .column.size-1of3';
+	}
+}
+
+/**************************End of img grid settings**********************************/
+
+.glyphicon-send {
+	font-size: 2.5em;
+}
+
+body {
+	font-family: 'Cabin', sans-serif;
+}
+
+.glyphicon.glyphicon-circle-arrow-up {
+	color: #00739E;
+	font-size: 4em;
+}
+
+.glyphicon.glyphicon-chevron-right,
+.glyphicon.glyphicon-chevron-left {
+	font-size: 4em;
+}
+
+img.logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	margin-top: -115px;
+	padding: 15px;
+	position: relative;
+	z-index: 5;
+}
+
+@media (max-width: 900px) {
+	.glyphicon.glyphicon-circle-arrow-up,
+	.glyphicon.glyphicon-chevron-right,
+	.glyphicon.glyphicon-chevron-left {
 		font-size: 3em;
 	}
+}
 
-	.ul-text {
-		font-size: 1.2em;
+@media (max-width: 600px) {
+	
+	.glyphicon.glyphicon-circle-arrow-up,
+	.glyphicon.glyphicon-chevron-right,
+	.glyphicon.glyphicon-chevron-left {
+		font-size: 2.3em;
 	}
-
-	.black-row,
-	.white-row {
-		padding-left: 0px;
-		padding-right: 0px;
+	
+	.logo-card-left {
+		display: none;
 	}
-
-	.push-right {
-		text-align: left;
+	
+	.navbar {
+		visibility: visible;
 	}
-
-	.float-left {
-		float: left;
+	
+	.navbar-brand {
+		padding: 0;
 	}
-
-	.breaks {
-		margin: 15px 0 25px 0;
+	
+	.navbar h3 {
+		display: inline-block;
+		font-size: 16px;
+	}
+	
+	.navbar .paperplane {
+		margin-left: 10px;
+		max-width: 20px;
+	}
+	
+	.nav-arrows {
+		max-width: 25px;
+		margin-top: 12px;
+	}
+	
+	.nav-arrow-up {
+		border-bottom: solid 4px #f8f8f8;
+	}	
+	
+	.nav-arrow-down {
+		border-top: solid 4px #f8f8f8;
+	}
+	
+	.my-container {
+		margin-left: 0px;
 	}
 }
 
-@media(max-width:460px){
-	.logo {
-    	height: 120px;
-    	width: 120px;
-    }
-
-	.box-space,
-	.push-up-max {
-		padding-bottom: 18px;
-	}
-
-	.h3-text {
-		font-size: 2.1em;
-	}
-
-	.h4-text {
+@media (max-width: 400px) {	
+	.glyphicon.glyphicon-chevron-right,
+	.glyphicon.glyphicon-chevron-left {
 		font-size: 1.3em;
 	}
-
-	.ul-text {
-		font-size: 1.1em;
-	}
-
-	.p-text,
-	.p-text-small {
-		font-size: 1.2em;
-	}
+	
 }
-
-@media(max-width:387px) {
-	.pt-sans {
-		font-size: 1.6em;
-	}
-}
-/*=====================End Media Breaks ===========================*/
