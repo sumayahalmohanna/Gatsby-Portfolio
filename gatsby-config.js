@@ -9,14 +9,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`,
+        path: `./src/images/`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages/`,
+        path: `./src/pages/`,
       },
     },
     {
@@ -24,7 +24,7 @@ module.exports = {
       options: {
         name: `Sam Almohanna Portfolio`,
         short_name: `Gatsby Portfolio`,
-        start_url: `sumayahalmohanna.github.io/Gatsby-Portfolio`,
+        start_url: `https://sumayahalmohanna.github.io/Gatsby-Portfolio`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,
