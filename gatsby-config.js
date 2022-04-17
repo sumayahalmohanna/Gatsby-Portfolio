@@ -24,7 +24,7 @@ module.exports = {
       options: {
         name: `Sam Almohanna Portfolio`,
         short_name: `Gatsby Portfolio`,
-        start_url: `/`,
+        start_url: `/Gatsby-Portfolio`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,

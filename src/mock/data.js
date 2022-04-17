@@ -1,5 +1,4 @@
 import { nanoid } from 'nanoid';
-import Ui20 from '../images/dailyui-20.gif';
 
 // HEAD DATA
 export const headData = {
@@ -47,7 +46,7 @@ export const projectsData = [
     info3label: 'Solutions:',
     info3: 'Redesigned my website as a Single Page Application, removed the skills section that was being used as a check list to see if I perfectly match a position, and kept it simple! For this redesign I used a Gatsbyjs starter, GraphQL, and Sass.',
     btnlabel: 'Visit old website',
-    url: 'http://www.sumayahdesigns.com/portfolioReactApp/',
+    url: 'https://sumayahalmohanna.github.io/porfolioReactApp',
     repo: 'https://github.com/sumayahalmohanna/portfolioReactApp/tree/master', // if no repo, the button will not show up
   },
 ];
