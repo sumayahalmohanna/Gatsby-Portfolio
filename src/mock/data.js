@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile-pic.png',
-  paragraphOne: 'I am a UI designer focused on creating user friendly Web and Mobile interfaces. My strong programming background and experience enable me to see a project through every stage of production alongside developers and product owners. Over the past 6 years I have gained experience working freelance on a multitude of projects in vastly different industries. I am passionate about creating accessible and engaging Web and Mobile UI’s.',
-  paragraphTwo: 'I\'m currently working in a medical office where I quickly put my skills to use. Unifying brand presence across mediums, developing a standard operating procedures technology manual, and maintaining the website.',
-  paragraphThree: 'I look forward to joining a talented team that is ready to take their user experience to the next level.',
+  paragraphOne: 'I am a UI developer focused on creating user friendly Web and Mobile interfaces. My strong programming background and experience enable me to see a project through every stage of production alongside developers and product owners. Over the past 7 years I have gained experience working freelance on a multitude of projects in vastly different industries. I am passionate about creating accessible and engaging Web and Mobile UI’s.',
+  paragraphTwo: 'I\'m currently working at Caribou as a Front-end Engineer on the Growth Marketing team. ',
+  paragraphThree: 'In my spare time I have been working on my first NPM Package, stay tuned! 😁',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -46,7 +46,7 @@ export const projectsData = [
     info3label: 'Solutions:',
     info3: 'Redesigned my website as a Single Page Application, removed the skills section that was being used as a check list to see if I perfectly match a position, and kept it simple! For this redesign I used a Gatsbyjs starter, GraphQL, and Sass.',
     btnlabel: 'Visit old website',
-    url: 'https://sumayahalmohanna.github.io/porfolioReactApp',
+    url: 'https://sumayahalmohanna.github.io/portfolioReactApp/home/about',
     repo: 'https://github.com/sumayahalmohanna/portfolioReactApp/tree/master', // if no repo, the button will not show up
   },
 ];

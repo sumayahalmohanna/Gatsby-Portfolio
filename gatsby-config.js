@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/Gatsby-Portfolio',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -9,14 +10,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `./src/images/`,
+        path: `${__dirname}/src/images/`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `./src/pages/`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
